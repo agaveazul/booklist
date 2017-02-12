@@ -1,0 +1,9 @@
+<h1> Books </h1>
+
+<ol>
+<% @books.each do |book| %>
+<li><%= book.title %>, <%= book.author %>
+</li>
+<br>
+<% end %>
+</ol>
